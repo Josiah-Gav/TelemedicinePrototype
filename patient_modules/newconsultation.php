@@ -546,7 +546,7 @@
 
         .type-card-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: .9rem;
         }
 
@@ -1297,10 +1297,6 @@
                                     <button class="type-card" type="button">
                                         <i class="bi bi-calendar2-check"></i>
                                         <span><h3>Follow-up Consultation</h3><p>For follow-up checkups or continuation of previous consultation.</p></span>
-                                    </button>
-                                    <button class="type-card" type="button">
-                                        <i class="bi bi-file-earmark-text"></i>
-                                        <span><h3>Health Certificate Request</h3><p>For medical certificate or fit-to-return requests.</p></span>
                                     </button>
                                 </div>
 
