@@ -1316,6 +1316,7 @@
                     <li><a class="nav-link" href="dashboard.php"><i class="bi bi-house-door"></i> Dashboard</a></li>
                     <li><a class="nav-link" href="newconsultation.php"><i class="bi bi-patch-plus"></i> New Consultation</a></li>
                     <li><a class="nav-link active" href="myconsultation.php"><i class="bi bi-chat-dots"></i> My Consultation</a></li>
+                    <li><a class="nav-link" href="consultationhistory.php"><i class="bi bi-clipboard2-pulse"></i> Consultation History</a></li>
                     <li>
                         <a class="nav-link" href="notification.php">
                             <i class="bi bi-bell"></i> Notifications
