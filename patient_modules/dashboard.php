@@ -935,7 +935,6 @@
                             <span class="nav-badge">4</span>
                         </a>
                     </li>
-                    <li><a class="nav-link" href="healthreminders.php"><i class="bi bi-calendar2-heart"></i> Health Reminders</a></li>
                     <li><a class="nav-link" href="profile.php"><i class="bi bi-card-list"></i> Profile</a></li>
                 </ul>
             </nav>
@@ -1013,9 +1012,6 @@
                             <a class="quick-card orange" href="notification.php">
                                 <span class="nav-badge floating-badge">4</span>
                                 <span><i class="bi bi-bell"></i><br>Notifications</span>
-                            </a>
-                            <a class="quick-card purple" href="healthreminders.php">
-                                <span><i class="bi bi-shield-plus"></i><br>Health<br>Reminders</span>
                             </a>
                             <a class="quick-card" href="#">
                                 <span><i class="bi bi-file-earmark-medical"></i><br>Health<br>Records</span>

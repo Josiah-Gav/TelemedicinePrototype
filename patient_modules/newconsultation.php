@@ -1213,7 +1213,6 @@
                             <span class="nav-badge">4</span>
                         </a>
                     </li>
-                    <li><a class="nav-link" href="healthreminders.php"><i class="bi bi-calendar2-heart"></i> Health Reminders</a></li>
                     <li><a class="nav-link" href="profile.php"><i class="bi bi-card-list"></i> Profile</a></li>
                 </ul>
             </nav>

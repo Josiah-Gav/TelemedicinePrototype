@@ -1131,7 +1131,6 @@
                             <span class="nav-badge">4</span>
                         </a>
                     </li>
-                    <li><a class="nav-link" href="healthreminders.php"><i class="bi bi-calendar2-heart"></i> Health Reminders</a></li>
                     <li><a class="nav-link" href="profile.php"><i class="bi bi-card-list"></i> Profile</a></li>
                 </ul>
             </nav>
@@ -1297,7 +1296,6 @@
                         <div class="quick-list">
                             <a class="quick-row" href="myconsultation.php"><i class="bi bi-chat-dots"></i><span>Go to My Consultation</span><i class="bi bi-chevron-right"></i></a>
                             <a class="quick-row" href="newconsultation.php"><i class="bi bi-plus-circle"></i><span>New Consultation</span><i class="bi bi-chevron-right"></i></a>
-                            <a class="quick-row" href="healthreminders.php"><i class="bi bi-calendar2-heart"></i><span>Health Reminders</span><i class="bi bi-chevron-right"></i></a>
                         </div>
                     </section>
 
