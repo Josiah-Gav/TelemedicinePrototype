@@ -130,10 +130,12 @@
                             </button>
                         </div>
 
-                        <p class="contact-copy text-center">
-                            Don't have an account?
-                            <a href="#">Contact your campus health center</a>
-                        </p>
+                        <div class="registration-action" id="registrationAction">
+                            <a class="registration-button" href="#">
+                                <i class="bi bi-person-plus"></i>
+                                Register as Student / Faculty
+                            </a>
+                        </div>
                     </div>
 
                     <footer class="security-footer">
@@ -242,6 +244,7 @@
         const password = document.getElementById("password");
         const accountType = document.getElementById("accountType");
         const signInButton = document.getElementById("signInButton");
+        const registrationAction = document.getElementById("registrationAction");
         const loginAlert = document.getElementById("loginAlert");
         const credentialsModal = document.getElementById("credentialsModal");
         const showCredentialsButton = document.getElementById("showCredentialsButton");
@@ -265,6 +268,7 @@
                 campusId.placeholder = copy.placeholder;
                 accountType.value = selectedRole;
                 signInButton.textContent = copy.button;
+                registrationAction.hidden = selectedRole !== "student";
                 loginAlert.textContent = "";
                 loginAlert.classList.remove("show");
             });

@@ -512,15 +512,13 @@ body {
     background: rgba(244, 210, 31, .2);
 }
 
-.forgot-link,
-.contact-copy a {
+.forgot-link {
     color: var(--clsu-green);
     font-weight: 700;
     text-decoration: none;
 }
 
-.forgot-link:hover,
-.contact-copy a:hover {
+.forgot-link:hover {
     color: var(--clsu-deep-green);
     text-decoration: underline;
 }
@@ -572,9 +570,36 @@ body {
     text-decoration: underline;
 }
 
-.contact-copy {
-    margin: 3.35rem 0 0;
-    color: #62708b;
+.registration-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;
+}
+
+.registration-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .55rem;
+    min-height: 46px;
+    padding: .75rem 1.15rem;
+    border: 1px solid rgba(8, 122, 34, .32);
+    border-radius: 9px;
+    color: var(--clsu-green);
+    background: #f7fcf2;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.registration-button i {
+    font-size: 1.2rem;
+}
+
+.registration-button:hover,
+.registration-button:focus-visible {
+    color: #fff;
+    border-color: var(--clsu-green);
+    background: var(--clsu-green);
 }
 
 .security-footer {
