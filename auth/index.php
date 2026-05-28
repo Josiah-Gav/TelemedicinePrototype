@@ -137,8 +137,6 @@
                     </div>
 
                     <footer class="security-footer">
-                        <span><i class="bi bi-shield-check"></i> HIPAA Compliant</span>
-                        <span class="dot" aria-hidden="true"></span>
                         <span>Secure Connection</span>
                     </footer>
                 </section>
