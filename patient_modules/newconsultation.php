@@ -1328,11 +1328,11 @@
                             </div>
 
                             <div class="symptom-grid" aria-label="Common symptoms">
-                                <button class="symptom-option active" type="button"><i class="bi bi-headphones"></i> Headache</button>
+                                <button class="symptom-option active" type="button"><i class="bi bi-emoji-dizzy"></i> Headache</button>
                                 <button class="symptom-option" type="button"><i class="bi bi-thermometer-half"></i> Fever</button>
                                 <button class="symptom-option" type="button"><i class="bi bi-lungs"></i> Cough</button>
                                 <button class="symptom-option" type="button"><i class="bi bi-virus"></i> Sore Throat</button>
-                                <button class="symptom-option" type="button"><i class="bi bi-magic"></i> Body Pain</button>
+                                <button class="symptom-option" type="button"><i class="bi bi-person-arms-up"></i> Body Pain</button>
                                 <button class="symptom-option" type="button"><i class="bi bi-battery-half"></i> Fatigue</button>
                                 <button class="symptom-option" type="button"><i class="bi bi-moisture"></i> Nausea / Vomiting</button>
                                 <button class="symptom-option" type="button"><i class="bi bi-prescription2"></i> Diarrhea</button>
